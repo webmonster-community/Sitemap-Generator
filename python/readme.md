@@ -59,8 +59,8 @@ Cette étape est importante puisqu'il faut adapter la requête à vos besoins da
 
 ### Google
 ```python
-sitemap = 'http://www.google.com/ping?sitemap=' + URL + '/sitemap.xml'
-response = urllib.request.urlopen(sitemap)
+URLENCODE = 'https://www.google.com/ping?sitemap=' + urllib.parse.quote_plus(URL + '/sitemap.xml')
+response = urllib.request.urlopen(URLENCODE)
 ```
 
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
