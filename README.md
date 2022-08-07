@@ -5,6 +5,7 @@
 Generate sitemap.xml from database, php, python, go, symfony...
 
 ## [PHP](php/)
+## [PYTHON](python/)
 
 Si vous avez des questions sur l'utilisation de ces scripts n'hésitez pas à laisser un commentaire.
 
