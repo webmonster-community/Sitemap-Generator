@@ -84,3 +84,5 @@ La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
 Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
+
+![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark.png)
