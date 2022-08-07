@@ -1,3 +1,4 @@
+import urllib.parse
 import urllib.request
 import mysql.connector
 from mysql.connector import Error
@@ -61,6 +62,6 @@ with open(FILENAME, "w") as file:
 
 print('Le sitemap est prêt !')
 
-sitemap = 'http://www.google.com/ping?sitemap=https://example.com/sitemap.xml'
-response = urllib.request.urlopen(sitemap)
+URLENCODE = 'https://www.google.com/ping?sitemap=' + urllib.parse.quote_plus(URL + '/sitemap.xml')
+response = urllib.request.urlopen(URLENCODE)
 print('Ping à Google !')
