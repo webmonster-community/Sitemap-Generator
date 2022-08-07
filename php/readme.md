@@ -74,5 +74,13 @@ Vous pouvez aussi dupliquer cette partie du code pour récupérer les données d
 
 ## Ecriture du fichier sitemap.xml
 
+```php
+$sitemap_xml = './sitemap.xml';
+$file = fopen($sitemap_xml, 'w+');
+fputs($file, $sitemap);
+```
+La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
+
+Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
 Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
