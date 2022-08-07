@@ -10,7 +10,7 @@
 | DATE          | 2022-08-06            |
 | AUTHOR        | Webmonster Antilles   |
 
-**NECESSAIRE** : PYTHON - MYSQL/MARIADB - LINUX
+**NECESSAIRE** : PYTHON 3+ - MYSQL/MARIADB - LINUX
 
 Ce **générateur de sitemap** est très simple, si il est placé à la racine de votre site, en s'executant il va générer un fichier sitemap.xml très apprécié des moteurs de recherche et indispensable à un référencement de qualité.
 
