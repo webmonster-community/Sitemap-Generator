@@ -56,11 +56,23 @@ Votre variable ``$url`` dans la configuration sera donc :
 ```php
 $url = 'https://monsite.fr/blog
 ```
-***Sans le / à la fin de l'url***
+Sans le / à la fin de l'adresse URL.
 
+Une fois que la requete s'execute, les résultats sont stockés dans un tableau qui est ensuite parcouru ligne par ligne pour ajouter chaque url dans le fichier sitemap.
+
+```php
+foreach ($results AS $result):
+    $sitemap .= "<url>\r\t<loc>".$url.'/'.slugify($result->title)."/</loc>\r\t<priority>0.5</priority>\r\t<changefreq>daily</changefreq>\r</url>\n\r";
+endforeach;
+```
+Le script utilise une fonction Slugify qui permet de convertir une chaine de caractère en lien URL.
+
+`````
+## Astuce
 Vous pouvez aussi dupliquer cette partie du code pour récupérer les données d'une autre table.
+`````
 
-La fin du script
+## Ecriture du fichier sitemap.xml
 
 
 Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
