@@ -82,7 +82,19 @@ fputs($file, $sitemap);
 ```
 La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
 
-http://www.google.com/ping?sitemap=https://techmonster.info/sitemap.xml
+## Ping des différents moteurs de recherche
+
+### Google
+```php
+$res = file_get_contents('http://www.google.com/ping?sitemap='.urlencode($url).'/sitemap.xml');
+```
+
+### Bing
+```php
+$res = file_get_contents('http://www.google.com/ping?sitemap='.urlencode($url).'/sitemap.xml');
+```
+
+
 
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
