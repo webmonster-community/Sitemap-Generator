@@ -82,7 +82,7 @@ fputs($file, $sitemap);
 ```
 La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
 
-## Ping des différents moteurs de recherche
+## Ping
 
 ### Google
 ```php
