@@ -38,11 +38,12 @@ $dbn = "db";
 ```php
 $pdo = new PDO($dsn.$dbn, $usr, $pwd);
 ```
-Connexion à la base de données.
-
 Une fois la configuration terminé, le script se connecte à votre base de données pour récupérer dans notre exemple un champ ``Titre`` pour le convertir avec la fonction Slugify en chaine de caractères adaptés à une URL et performante pour votre référencement.
 
+```php
 $stm = $pdo->query("SELECT title FROM articles ORDER BY title;");
+```
+Cette étape est importante puisqu'il faut adapter la requête à vos besoins.
 
 Vous pouvez aussi dupliquer cette partie du code pour récupérer les données d'une autre table.
 
