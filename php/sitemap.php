@@ -117,3 +117,6 @@ $sitemap .= '</urlset>';
 $sitemap_xml = './sitemap.xml';
 $file = fopen($sitemap_xml, 'w+');
 fputs($file, $sitemap);
+
+// PING GOOGLE
+$res = file_get_contents('http://www.google.com/ping?sitemap='.urlencode($url).'/sitemap.xml');
