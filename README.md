@@ -2,7 +2,7 @@
 
 # Générateur de Sitemap (sitemap.xml)
 
-Generate sitemap.xml from database, php, python, go, symfony...
+Générer un fichier sitemap.xml à partir d'une base de données type MySQL avec PHP, Python...
 
 ## [PHP](php/)
 ## [PYTHON](python/)
