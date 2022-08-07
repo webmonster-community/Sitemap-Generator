@@ -16,6 +16,18 @@ Ce **générateur de sitemap** est très simple, si il est placé à la racine d
 
 Le but de ce script est de compléter un sitemap existant avec les URLs des pages dynamiques extraites d'une base de données.
 
+## Import
+
+```python
+import urllib.parse
+import urllib.request
+import mysql.connector
+from mysql.connector import Error
+from slugify import slugify
+```
+Pour installer mysql.connector
+``pip install mysql-connector-python``
+
 ## Configuration
 
 ```python
