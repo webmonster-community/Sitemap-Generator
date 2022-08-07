@@ -45,6 +45,19 @@ $stm = $pdo->query("SELECT title FROM articles ORDER BY title;");
 ```
 Cette étape est importante puisqu'il faut adapter la requête à vos besoins.
 
+Prenons un exemple simple avec un blog :
+
+Vous récupérez le champ ``titre`` de vos articles parce qu'ils forment l'URL pour afficher vos articles sur le blog exemple
+
+``https://monsite.fr/blog/mon-slug-url-unique/``
+
+Votre variable ``$url`` dans la configuration sera donc :
+
+```php
+$url = 'https://monsite.fr/blog
+```
+***Sans le / à la fin de l'url***
+
 Vous pouvez aussi dupliquer cette partie du code pour récupérer les données d'une autre table.
 
 La fin du script
