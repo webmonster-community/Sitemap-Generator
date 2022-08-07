@@ -18,6 +18,30 @@ Le but de ce script est de compléter un sitemap existant avec les URLs des page
 
 ## Configuration
 
+```python
+# CONFIGURATION
+URL = 'https://127.0.0.1'
+HST = 'localhost'
+USR = 'root'
+PWD = '123456'
+DBN = 'db'
+FIND_AVAILABLE_PRODUCTS_QUERY = "SELECT title FROM produits ORDER BY title"
+FILENAME = 'sitemap.xml'
+```
+
+``URL`` : Remplacer par l'adresse de votre site
+
+``USR`` : Remplacer par le nom de l'utilisateur MySQL/MariaDB
+
+``PWD`` : Remplacer par le mot de passe de l'utilisateur MySQL/MariaDB
+
+``DBN`` : Remplacer par le nom de votre base de données
+
+``FIND_AVAILABLE_PRODUCTS_QUERY`` : Requête pour récupérer les données
+
+``FILENAME`` : Nom du fichier sitemap
+
+
 
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
