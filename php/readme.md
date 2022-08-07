@@ -26,13 +26,23 @@ $pwd = "12user";
 $dbn = "db";
 ```
 ``$url`` : Remplacer par l'adresse de votre site
+
 ``$usr`` : Remplacer par le nom de l'utilisateur MySQL/MariaDB
+
 ``$pwd`` : Remplacer par le mot de passe de l'utilisateur MySQL/MariaDB
+
 ``$dbn`` : Remplacer par le nom de votre base de données
+
+## Connexion à la base de données
+
+```php
+$pdo = new PDO($dsn.$dbn, $usr, $pwd);
+```
+Connexion à la base de données.
 
 Une fois la configuration terminé, le script se connecte à votre base de données pour récupérer dans notre exemple un champ ``Titre`` pour le convertir avec la fonction Slugify en chaine de caractères adaptés à une URL et performante pour votre référencement.
 
-
+$stm = $pdo->query("SELECT title FROM articles ORDER BY title;");
 
 Vous pouvez aussi dupliquer cette partie du code pour récupérer les données d'une autre table.
 
