@@ -89,13 +89,6 @@ La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
 $res = file_get_contents('http://www.google.com/ping?sitemap='.urlencode($url).'/sitemap.xml');
 ```
 
-### Bing
-```php
-$res = file_get_contents('http://www.google.com/ping?sitemap='.urlencode($url).'/sitemap.xml');
-```
-
-
-
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
 ![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark@2x.png)
