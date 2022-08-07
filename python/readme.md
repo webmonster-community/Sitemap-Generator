@@ -41,7 +41,27 @@ FILENAME = 'sitemap.xml'
 
 ``FILENAME`` : Nom du fichier sitemap
 
+## Connexion à la base de données
 
+```python
+cnx = mysql.connector.connect(
+            host=HST,
+            database=DBN,
+            user=USR,
+            password=PWD
+        )
+```
+Une fois la configuration terminé, le script se connecte à votre base de données pour récupérer dans notre exemple un champ ``Titre`` pour le convertir avec la fonction **Slugify** en chaine de caractères adaptés à une URL et performante pour votre référencement.
+
+Cette étape est importante puisqu'il faut adapter la requête à vos besoins dans cette variable ``FIND_AVAILABLE_PRODUCTS_QUERY``
+
+## Ping
+
+### Google
+```python
+sitemap = 'http://www.google.com/ping?sitemap=' + URL + '/sitemap.xml'
+response = urllib.request.urlopen(sitemap)
+```
 
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
