@@ -82,6 +82,8 @@ fputs($file, $sitemap);
 ```
 La variable ``$sitemap_xml`` correspond au nom du fichier de destination.
 
+http://www.google.com/ping?sitemap=https://techmonster.info/sitemap.xml
+
 Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à laisser un commentaire.
 
 ![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark@2x.png)
