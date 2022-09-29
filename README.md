@@ -11,4 +11,4 @@ Si vous avez des questions sur l'utilisation de ces scripts n'hésitez pas à la
 
 ![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark.png)
 
-Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
+Visiter la communauté [Webmonster](https://discord.gg/maynphPgp2) sur Discord.
