@@ -1,4 +1,4 @@
-![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark@2x.png)
+![img](https://techmonster.info/assets/img/logo-webmonster-community.png)
 
 # Générateur de Sitemap (sitemap.xml)
 
