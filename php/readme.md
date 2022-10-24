@@ -93,4 +93,4 @@ Si vous avez des questions sur l'utilisation de ce script n'hésitez pas à lais
 
 ![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark@2x.png)
 
-Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
+Visiter la communauté [Webmonster](https://discord.gg/8wRCMFVkm2) sur Discord.
